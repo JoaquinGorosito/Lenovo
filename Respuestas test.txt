@@ -1,0 +1,115 @@
+/**
+ * TEST DE JAVASCRIPT
+ * ACLARACIÓN: No hay una sola respuesta correcta.
+ * Utilizar el método que te resulte más práctico para llegar al resultado esperado. 
+ * // NOTA: * Lo ideal sería poder realizarlo con estructuras de control, sin utilizar los métodos propios de la clase Array.
+ *
+ */
+
+/**
+ *Ejercicio 1: Crear una función que reciba como parámetro un Array de números enteros positivos y devuelva un array que tenga solamente los números pares.
+
+Ejemplo de input:
+ let array = [0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15];
+ */
+****************************************
+var pares = array.filter(function(numero){
+return numero% 2 == 0
+})
+
+}
+*******************************************
+
+
+/**
+ * Ejercicio 2: Realizar una función que reciba como parámetro un string y retorne un boolean indicando si la palabra es *palíndromo o no.
+ *
+ * Un palíndromo
+  también llamado palíndromo
+   palíndroma o palindroma
+    es una palabra o frase que se lee igual en un sentido que en otro. Por ejemplo: oso.
+ *
+ * 
+ */
+
+
+/**
+ *  Ejercicio 3:
+ *
+ *  Crear un objeto "Auto" con
+ *  Los siguientes atributos:
+ *  String: marca
+ *  String: modelo
+ *  boolean: encendido
+ *  int: cilindrada
+ *  int: año
+ *
+ *  Los siguientes métodos:
+ *  boolean: estaEncendido()
+ *  void: encender()
+ *  void: apagar()
+ *  String: toString() [Devuelve el detalle del año
+  marca, modelo y cilindrada]
+ *
+ *  Nota: Utilizar cualquier patrón de creación que desees (Función constructora, classes de ES6, objeto literal)
+ *
+ *
+ */
+************************************
+ let autos = [ { 
+     marca: 'Ford' ,
+     modelo: 'Fiesta',
+     encendido: false
+     cilindrada:220,
+     anio:2019,
+ }]
+************************************
+
+
+
+GXD0T69864
+65FEGCC2US
+78011329
+ZA800000WW
+78023100
+GXD1C67963
+66CBKCC1US
+78016250
+ZA6G0006US
+78010684
+GX40S69333
+65EARAC1US
+78011618
+78011559
+GY50U89282
+66BCKCC2US
+78017154
+78016371
+ZA5F0023US
+ZA5W0029US
+GX40Q75214
+GX40Q17230
+GX31D10707
+ZA740005US
+ZA7C0043US
+66B7RAC1US
+66BDKCC2US
+66C2GCC1US
+ZG38C02870
+ZG38C03142
+ZG38C03143
